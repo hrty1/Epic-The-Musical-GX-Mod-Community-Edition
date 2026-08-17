@@ -1,9 +1,9 @@
 {
-    "name": "MOD NAME GOES HERE",
-    "description": "MOD DESCRIPTION GOES HERE",
+    "name": "Epic The Musical - Community Editon",
+    "description": "An Epic the Musical GX mod made by the community of Epic The Musical",
     "developer":
     {
-        "name": "DEVELOPER NAME GOES HERE"
+        "name": "The community of Epic The Musical"
     },
     "icons": {
       "512": "icon_512.png"

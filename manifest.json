@@ -1,0 +1,78 @@
+{
+    "name": "MOD NAME GOES HERE",
+    "description": "MOD DESCRIPTION GOES HERE",
+    "developer":
+    {
+        "name": "DEVELOPER NAME GOES HERE"
+    },
+    "icons": {
+      "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music": [ {
+            "id": "0",
+            "name": "Epic",
+            "tracks": [ "music/full song.mp3" ]
+            } ],
+            "page_styles": [ {
+            "id": "page_styles_01",
+            "name": "Epic",
+            "css": [ "webmodding/epic-fonts.css" ],
+            "matches": [ "*://*/*" ] } ],
+            "splash_screen": [ {
+            "id": "splash_screen_01",
+            "name": "Epic",
+            "path": "splash/splash1.mp4" } ],
+            
+            "theme": [ {
+            "id": "theme_01",
+            "name": "Epic",
+            "dark": {
+               "gx_accent": {
+                  "h": 355,
+                  "l": 36,
+                  "s": 95
+               },
+               "gx_secondary_base": {
+                  "h": 350,
+                  "l": 8,
+                  "s": 30
+               }
+            },
+            "light": {
+               "gx_accent": {
+                  "h": 355,
+                  "l": 45,
+                  "s": 85
+               },
+               "gx_secondary_base": {
+                  "h": 350,
+                  "l": 90,
+                  "s": 22
+               }
+            }
+         } ],
+            "wallpaper": [ {
+            "id": "wallpaper_01",
+            "name": "Epic",
+            "dark": {
+               "image": "wallpaper/dark.png",
+               "text_color": "#FFFFFF",
+               "text_shadow": "#1A0000"
+            },
+            "light": {
+               "image": "wallpaper/light.png",
+               "text_color": "#FFFFFF",
+               "text_shadow": "#1A0000"
+            }
+         } ]
+        },
+        "schema_version": 2
+    },
+    "version": "1.0"
+}

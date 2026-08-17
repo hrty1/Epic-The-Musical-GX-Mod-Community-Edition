@@ -17,7 +17,7 @@
             "background_music": [ {
             "id": "0",
             "name": "Epic",
-            "tracks": [ "music/full song.mp3" ]
+            "tracks": [ "music/full_song.mp3" ]
             } ],
             "page_styles": [ {
             "id": "page_styles_01",

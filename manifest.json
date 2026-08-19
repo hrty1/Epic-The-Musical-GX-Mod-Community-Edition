@@ -38,7 +38,7 @@
                   "l": 36,
                   "s": 95
                },
-               "gx_secondary": {
+               "gx_secondary_base": {
                   "h": 350,
                   "l": 8,
                   "s": 30
@@ -50,7 +50,7 @@
                   "l": 45,
                   "s": 85
                },
-               "gx_secondary": {
+               "gx_secondary_base": {
                   "h": 350,
                   "l": 90,
                   "s": 22

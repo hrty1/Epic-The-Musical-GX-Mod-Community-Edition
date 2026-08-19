@@ -1,19 +1,19 @@
 {
-    "name": "Epic The Musical - Community Editon",
-    "description": "An Epic the Musical GX mod made by the community of Epic The Musical. This mod includes a custom theme, wallpaper, splash screen, and background music. The Source code for this mod is available on GitHub at https://github.com/hrty1/Epic-The-Musical-GX-Mod-Community-Edition",
-    "developer":
-    {
-        "name": "The community of Epic The Musical"
-    },
-    "icons": {
+   "name": "Epic The Musical - Community Editon",
+   "description": "An Epic the Musical GX mod made by the community of Epic The Musical. This mod includes a custom theme, wallpaper, splash screen, and background music. The Source code for this mod is available on GitHub at https://github.com/hrty1/Epic-The-Musical-GX-Mod-Community-Edition",
+   "developer":
+   {
+      "name": "The community of Epic The Musical"
+   },
+   "icons": {
       "512": "icon_512.png"
-    },
-    "manifest_version": 3,
-    "mod":
-    {
-        "license": "license.txt",
-        "payload":
-        {
+   },
+   "manifest_version": 3,
+   "mod":
+   {
+      "license": "license.txt",
+      "payload":
+      {
             "background_music": [ {
             "id": "0",
             "name": "Epic",
@@ -38,7 +38,7 @@
                   "l": 36,
                   "s": 95
                },
-               "gx_secondary_base": {
+               "gx_secondary": {
                   "h": 350,
                   "l": 8,
                   "s": 30
@@ -50,7 +50,7 @@
                   "l": 45,
                   "s": 85
                },
-               "gx_secondary_base": {
+               "gx_secondary": {
                   "h": 350,
                   "l": 90,
                   "s": 22
@@ -71,8 +71,8 @@
                "text_shadow": "#1A0000"
             }
          } ]
-        },
-        "schema_version": 2
-    },
-    "version": "1.0"
+      },
+      "schema_version": 2
+   },
+   "version": "1.0"
 }
